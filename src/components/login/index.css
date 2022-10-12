@@ -26,6 +26,7 @@ a {
     display: flex;
 }
 
+
 .left {
     height: 100%;
     width: 60%;
@@ -40,6 +41,21 @@ a {
     display: flex;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .right {
+      width: 100%;
+    }
+  
+    .left {
+        display: none;
+      }
+}
+
+
+
+
 
 .form {
     width: 90%;
@@ -175,6 +191,11 @@ a {
     color: #999;
 }
 
+.txt1:hover {
+    color: rgb(102, 102, 247);
+}
+
+
 .form-social {
     display: flex;
     justify-content: center;
@@ -217,3 +238,17 @@ a {
 .bg-2:hover {
     background: #302f2f;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .txt1 {
+        font-size: 13px;
+    }
+
+    .txt2 {
+        font-size: 13px;
+    }
+    
+
+}
+
