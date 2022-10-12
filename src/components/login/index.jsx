@@ -14,15 +14,15 @@ function Login() {
                         Login to continue
                     </span>
                     <div className="eInputDiv">
-                        <input className="input100" type="text" name="email" />
+                        <input className="input100" type="text" name="email" placeholder='Email' />
                     </div>
                     <div className="pInputDiv">
-                        <input className="" type="password" />
+                        <input className="" type="password" placeholder='Password' />
                     </div>
-                    <div className="flex-sb-m w-full p-t-3 p-b-32">
-                        <div className="contact100-form-checkbox">
-                            <input className="input-checkbox100" id="ckb1" type="checkbox" name="remember-me" />
-                            <label className="label-checkbox100" for="ckb1">
+                    <div className="rfDiv">
+                        <div className="">
+                            <input className="input-checkbox" id="ckb1" type="checkbox" name="remember-me" />
+                            <label className="label-checkbox" for="ckb1">
                                 Remember me
                             </label>
                         </div>
@@ -31,22 +31,22 @@ function Login() {
 
                         </div>
                     </div>
-                    <div className="container-login100-form-btn">
-                        <button className="login100-form-btn">
+                    <div className="form-btn">
+                        <button className="btn">
                             Login
                         </button>
                     </div>
-                    <div className="text-center p-t-46 p-b-20">
+                    <div className="sHeading">
                         <span className="txt2">
                             or sign up using
                         </span>
                     </div>
-                    <div className="login100-form-social flex-c-m">
-                        <a href="#" className="">
-                            <BsFacebook />
+                    <div className="form-social">
+                        <a href="#" className='bg-1'>
+                            <BsFacebook className='fbicone' />
                         </a>
-                        <a href="#" className="login100-form-social-item flex-c-m bg2 m-r-5">
-                        <BsTwitter/>
+                        <a href="#" className='bg-2'>
+                        <BsTwitter className='ticon'/>
                         </a>
                     </div>
                 </form>
