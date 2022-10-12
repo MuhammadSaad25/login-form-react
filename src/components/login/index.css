@@ -1,39 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins-regular', sans-serif;
 }
-.App{
+
+.App {
     margin: 0;
     padding: 0;
 }
 
 a {
-    /* font-family: Poppins-Regular; */
     font-size: 14px;
     line-height: 1.7;
     color: #666;
     margin: 0;
     text-decoration: none;
-    /* transition: all .4s; */
-    /* -webkit-transition: all .4s; */
-    /* -o-transition: all .4s; */
-    /* -moz-transition: all .4s; */
 }
 
-.container{
-    /* background-color: aqua; */
+.container {
     height: 120vh;
     width: 98.2vw;
 
     display: flex;
-
 }
 
-.left{
-    /* border: 2px solid green; */
+.left {
     height: 100%;
     width: 60%;
     background-image: url(./img/bg-01.jpg);
@@ -41,86 +34,78 @@ a {
     background-size: cover;
 }
 
-.right{
-    /* border: 2px solid blue; */
-    /* height: 100%; */
+.right {
     width: 40%;
     padding: 170px 30px 0px 30px;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.form{
-    /* height: 100%; */
+.form {
     width: 90%;
-    /* margin-top: 30px; */
 
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
     flex-direction: column;
 }
 
-.heading{
+.heading {
     color: #333;
     height: 10%;
     font-size: 30px;
     padding-bottom: 45px;
 }
 
-.eInputDiv{
+.eInputDiv {
     height: 80px;
     width: 100%;
     border: 1px solid #e6e6e6;
     border-radius: 10px;
     margin-bottom: 10px;
-    /* border: #555 solid 1px; */
 
     display: flex;
     align-items: center;
-}   
+}
 
-.eInputDiv input{
+.eInputDiv input {
     width: 100%;
-    border:none;
+    border: none;
     outline: none;
     font-size: 18px;
     color: #555;
     line-height: 1.2;
     padding: 0 26px;
 
-}   
+}
 
-.pInputDiv{
+.pInputDiv {
     height: 80px;
     width: 100%;
-    /* border: #555 solid 1px; */
     border: 1px solid #e6e6e6;
     border-radius: 10px;
     margin-bottom: 10px;
 
     display: flex;
     align-items: center;
-}   
+}
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
     font-size: 18px;
     color: #999;
     line-height: 1.2;
     width: 100%;
 }
 
-.pInputDiv input{
+.pInputDiv input {
     width: 100%;
-    border:none;
+    border: none;
     outline: none;
     font-size: 18px;
     color: #555;
     line-height: 1.2;
     padding: 0 26px;
-}   
+}
 
-.rfDiv{
+.rfDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,35 +114,32 @@ a {
     width: 100%;
 
 }
+
 .input-checkbox {
     cursor: pointer;
-    /* height: 30px; */
 }
+
 .label-checkbox {
-    /* font-family: Poppins-Regular; */
     font-size: 16px;
     color: #999;
     line-height: 1.4;
-    /* display: block; */
-    /* position: relative; */
     padding-left: 6px;
     cursor: pointer;
 }
-.txt1 {
 
-    /* font-family: Montserrat-Regular; */
+.txt1 {
     font-size: 16px;
     line-height: 1.4;
     color: #555;
 }
 
-.form-btn{
+.form-btn {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,36 +159,35 @@ a {
     outline: none;
 }
 
-.btn:hover{
+.btn:hover {
     background: #302f2f;
     cursor: pointer;
 }
 
-.sHeading{
+.sHeading {
     padding-top: 46px;
     padding-bottom: 20px;
 }
 
-.txt2{
+.txt2 {
     font-size: 16px;
     line-height: 1.4;
     color: #999;
 }
 
-.form-social{
+.form-social {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.form-social a{
+.form-social a {
     width: 36px;
     height: 36px;
-    /* font-size: 36px; */
     border-radius: 50%;
 }
 
-.bg-1{
+.bg-1 {
     background-color: #fff;
     color: #3b5998;
     font-size: 36px;
@@ -217,7 +198,7 @@ a {
     align-items: center;
 }
 
-.bg-2{
+.bg-2 {
     background-color: #1da1f2;
     color: #fff;
     font-size: 24px;
@@ -229,10 +210,10 @@ a {
 
 
 
-.bg-1:hover{
+.bg-1:hover {
     color: #302f2f;
 }
 
-.bg-2:hover{
+.bg-2:hover {
     background: #302f2f;
 }

@@ -1,5 +1,5 @@
 import './index.css'
-import { BsFacebook,BsTwitter } from "react-icons/bs";
+import { BsFacebook, BsTwitter } from "react-icons/bs";
 
 
 
@@ -46,11 +46,11 @@ function Login() {
                             <BsFacebook className='fbicone' />
                         </a>
                         <a href="#" className='bg-2'>
-                        <BsTwitter className='ticon'/>
+                            <BsTwitter className='ticon' />
                         </a>
                     </div>
                 </form>
-                </div>
+            </div>
         </div>
     );
 }
